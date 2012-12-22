@@ -39,3 +39,21 @@ Edge<Integer> edge24_1 = btree.addEdge(2, 4, "label");
 Edge<Integer> edge24_2 = btree.addEdge(2, 4, "label");
 Edge<Integer> edge24_3 = btree.addEdge(2, 4, "label");
 </code>
+
+*MultiGraph*
+
+http://ngraph-graphapi.googlecode.com/svn/trunk/ngraphpics/Multigraph.png
+
+<code language="java">
+DirectedGraph<Integer> btree=new BinaryTree<Integer>();
+btree.addNode(1);
+btree.addNode(2);
+btree.addNode(3);
+btree.addNode(4);
+Edge<Integer> edge11_1 = btree.addEdge(1, 1, "label");
+Edge<Integer> edge12_1 = btree.addEdge(1, 2, "label");
+Edge<Integer> edge13_1 = btree.addEdge(1, 3, "label");
+Edge<Integer> edge24_1 = btree.addEdge(2, 4, "label");
+Edge<Integer> edge24_2 = btree.addEdge(2, 4, "label");
+Edge<Integer> edge24_3 = btree.addEdge(2, 4, "label");
+</code>
