@@ -1,0 +1,8 @@
+#summary Simple graph API implementation in Java
+
+= Introduction =
+
+A simple graph API implementation in java that gives you the ability to create various kinds of directed, undirected, weighted graphs. Specific graphs that you could create are BinaryTree, MultiDigraph, Multigraph, SimpleDirectedGraph, SimpleDirectedWeightedGraph, SimpleGraph, SimpleGraph, WeightedMultiDigraph and WeightedMultigraph.
+
+
+= Details =
