@@ -72,3 +72,23 @@ Edge<Integer> edge12 = simpledgraph.addEdge(1, 2, "label");
 Edge<Integer> edge13 = simpledgraph.addEdge(1, 3, "label");
 Edge<Integer> edge24 = simpledgraph.addEdge(2, 4, "label");
 </code>
+
+*SimpleWeightedGraph*
+
+http://ngraph-graphapi.googlecode.com/svn/trunk/ngraphpics/SimpleWeightedGraph.png
+
+<code language="java">
+WeightedGraph<Integer> simplewgraph=new SimpleWeightedGraph<Integer>(true);
+simplewgraph.addNode(1);
+simplewgraph.addNode(2);
+simplewgraph.addNode(3);
+simplewgraph.addNode(4);
+Edge<Integer> edge12 = simplewgraph.addEdge(1, 2, "label");
+Edge<Integer> edge13 = simplewgraph.addEdge(1, 3, "label");
+Edge<Integer> edge24 = simplewgraph.addEdge(2, 4, "label");
+Edge<Integer> edge34 = simplewgraph.addEdge(3, 4, "label");
+simplewgraph.setWeight(edge12, 3.1);
+simplewgraph.setWeight(edge13, -10.1);
+simplewgraph.setWeight(edge24, 4.0);
+simplewgraph.setWeight(edge34, 5.0);
+</code>
