@@ -45,7 +45,7 @@ Edge<Integer> edge24_3 = multidigraph.addEdge(2, 4, "label");
 http://ngraph-graphapi.googlecode.com/svn/trunk/ngraphpics/Multigraph.png
 
 <code language="java">
-UnDirectedGraph<Integer> multigraph=new Multigraph<Integer>();
+UnDirectedGraph<Integer> multigraph=new Multigraph<Integer>(true);
 multigraph.addNode(1);
 multigraph.addNode(2);
 multigraph.addNode(3);
