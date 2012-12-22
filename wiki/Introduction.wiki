@@ -5,4 +5,17 @@
 A simple graph API implementation in java that gives you the ability to create various kinds of directed, undirected, weighted graphs. Specific graphs that you could create are BinaryTree, MultiDigraph, Multigraph, SimpleDirectedGraph, SimpleDirectedWeightedGraph, SimpleGraph, SimpleGraph, WeightedMultiDigraph and WeightedMultigraph.
 
 
-= Details =
+= Sample Code =
+
+Binary Tree
+
+http://ngraph-graphapi.googlecode.com/svn/trunk/ngraphpics/BinaryTree.png
+
+DirectedGraph<Integer> btree=new BinaryTree<Integer>();
+btree.addNode(1);
+btree.addNode(2);
+btree.addNode(3);
+btree.addNode(4);
+Edge<Integer> edge12 = btree.addEdge(1, 2, "label");
+Edge<Integer> edge13 = btree.addEdge(1, 3, "label");
+Edge<Integer> edge24 = btree.addEdge(2, 4, "label");
